@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.inputHiden{
+	display:none;
+}
+
+body{
+	background-image: url("rocket.jpg");
+	background-size: cover;
+}
+h1{
+	color: #d63031;
+	font-family: 'Oswald', sans-serif;
+	font-size:50px;
+	text-align: center;
+	
+}
+
+#generate a{
+	text-decoration:none;
+	color: white;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#generate2 a{
+	text-decoration:none;
+	color: white;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#yourData{
+	font-family: 'Inconsolata', monospace;
+	color:white;
+	text-align: center;
+}
+
+#generate{
+	margin:auto;
+	width: 200px;	
+	padding:10px;
+	font-size:20px;
+	background-color:#f39c12;
+	text-align: center;
+	border-radius: 5px;	
+	cursor: pointer;
+	margin-top: 25px;
+	
+	
+}
+
+#generate:hover{
+	background-color: #e67e22;
+	
+	
+}
+
+
+#generate2{	
+	width: 200px;
+	color: white;
+	padding:10px;
+	font-size:20px;
+	background-color:#f39c12;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	cursor: pointer;
+	margin-top: 25px;
+	
+}
+
+#generate2:hover{
+	background-color: #e67e22;	
+	
+}
+
+
+
+
+
+#listIp{
+	display: inline-block;
+}
+
+#listPays{
+	display: inline-block;
+}
+
+#listNav{
+	display: inline-block;
+}
+
+#listEcran{
+	display: inline-block;
+}
+
+ul{
+	list-style: none;
+	border: 1px solid;
+	padding: 50px;
+	color: white;
+	border-radius : 3px;
+}
+
+.lab{
+	margin-bottom: 10px;
+}
